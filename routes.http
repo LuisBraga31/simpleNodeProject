@@ -1,1 +1,12 @@
 POST http://localhost:3000/videos
+Content-type: application/json
+
+{
+    "title": "Video 1",
+    "description": "primeiro video",
+    "duration": 180
+}
+// Essas cerquilhas separam as requisições
+###
+
+GET http://localhost:3000/videos
