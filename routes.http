@@ -9,11 +9,11 @@ Content-type: application/json
 
 // Essas cerquilhas separam as requisições
 ###
-GET http://localhost:3000/videos?search=node
+GET http://localhost:3000/videos
 
 ###
 
-PUT http://localhost:3000/videos/727b1165-7024-436f-be6e-c3de69e8ba51
+PUT http://localhost:3000/videos/d36437b4-43ca-431f-8064-c015c9c432fd
 Content-type: application/json
 
 {
@@ -23,4 +23,4 @@ Content-type: application/json
 }
 
 ###
-DELETE http://localhost:3000/videos/727b1165-7024-436f-be6e-c3de69e8ba51
+DELETE http://localhost:3000/videos/d36437b4-43ca-431f-8064-c015c9c432fd
